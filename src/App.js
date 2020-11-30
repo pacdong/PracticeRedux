@@ -1,5 +1,8 @@
+import React from "react";
+import CounterContainer from "./containers/CounterContainer";
+
 function App() {
-  return <div>테스트 시작</div>;
+  return <CounterContainer />;
 }
 
 export default App;
