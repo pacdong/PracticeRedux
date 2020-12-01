@@ -7,8 +7,8 @@ function Counter({ number, diff, onIncrease, onDecrease, onSetDiff }) {
       <h1>{number}</h1>
       <div>
         <input type="number" value={diff} onChange={onChange} />
-        <button onClick={onIncrease}>+</button>
-        <button onClick={onDecrease}>-</button>
+        <button onClick={() => onIncrease}>+</button>
+        <button onClick={() => onDecrease}>-</button>
       </div>
     </div>
   );
